@@ -1,0 +1,318 @@
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+h1 {
+  text-shadow: 2px 2px orangered;
+  font-size: 40px;
+  font-weight: bolder;
+}
+body {
+  background-color: rgb(249, 207, 143);
+  margin: 0 auto;
+  position: relative;
+}
+.line {
+  background-color: orange;
+  height: 50px;
+}
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+}
+.logo {
+  width: 250px;
+  display: inline-block;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  border-radius: 8px;
+}
+.logotext {
+  position: absolute;
+  top: 75px;
+  left: 68px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: 900;
+  letter-spacing: 6px;
+  font-size: 30px;
+  text-shadow: 2px 2px orange;
+}
+.nav {
+  background-color: rgba(255, 255, 1, 0.933);
+  display: flex;
+  font-size: 16px;
+  list-style: none;
+  justify-content: flex-end;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border: 5px solid white;
+  border-left: 0;
+  border-right: 0;
+  padding-top: 15px;
+  margin-bottom: 0;
+}
+.g--1 {
+  position: absolute;
+  top: 66px;
+  right: 305px;
+  width: 30px;
+}
+.g--2 {
+  position: absolute;
+  top: 66px;
+  right: 220px;
+  width: 30px;
+}
+.g--3 {
+  position: absolute;
+  top: 66px;
+  right: 135px;
+  width: 30px;
+}
+.g--4 {
+  position: absolute;
+  top: 66px;
+  right: 42px;
+  width: 30px;
+}
+a:link {
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+a:hover {
+  color: white;
+  border-radius: 6px;
+}
+.c--1:hover {
+  background-color: red;
+  padding-top: 55px;
+  padding-bottom: 8px;
+}
+.c--2:hover {
+  background-color: rgb(62, 226, 255);
+  padding-top: 55px;
+  padding-bottom: 8px;
+}
+.c--3:hover {
+  background-color: rgb(255, 154, 216);
+  padding-top: 55px;
+  padding-bottom: 8px;
+}
+.c--4:hover {
+  background-color: rgb(26, 255, 91);
+  padding-top: 55px;
+  padding-bottom: 8px;
+}
+.menu {
+  padding: 20px;
+  padding-top: 40px;
+  padding-bottom: 8px;
+}
+.middle {
+  margin-top: 138px;
+  height: 600px;
+  background-image: url("banner.jpg");
+}
+.bepactive {
+  position: absolute;
+  width: 300px;
+  top: 200px;
+  left: 200px;
+  border-radius: 6px;
+  box-shadow: 2px 2px 8px black;
+}
+button {
+  position: absolute;
+  top: 300px;
+  left: 300px;
+  background-color: rgb(255, 0, 0);
+  color: white;
+  font-size: 20px;
+  border: 5px cornflowerblue;
+  padding: 10px;
+  letter-spacing: 2px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  border: 3px solid white;
+  cursor: pointer;
+  border-radius: 8px;
+  text-shadow: 2px 2px 2px rgb(155, 0, 0);
+}
+button:hover {
+  background-color: rgb(209, 0, 0);
+  color: rgba(255, 255, 255, 0.823);
+}
+.phrase {
+  position: absolute;
+  top: 0.5px;
+  right: 0;
+  width: 250px;
+  background-color: rgb(62, 226, 255);
+  padding: 20px;
+  padding-bottom: 98px;
+  padding-top: 110px;
+  font-size: 20px;
+  font-family: cursive;
+  color: white;
+  font-weight: 800;
+}
+.pnclogo {
+  position: absolute;
+  top: 30px;
+  right: 0;
+}
+.gallery {
+  background-color: orange;
+  block-size: 100%;
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  text-align: center;
+  font-size: 22px;
+  letter-spacing: 2px;
+  padding-top: 50px;
+  padding-bottom: 60px;
+  font-weight: bolder;
+  border-top: 5px solid white;
+}
+.pacline {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.images {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.img {
+  margin: 5px;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+.img:hover {
+  opacity: 0.5;
+}
+.im--1 {
+  border-radius: 50px 5px 5px 5px;
+}
+.im--2,
+.im--5 {
+  border-radius: 5px;
+}
+.im--3 {
+  border-radius: 5px 50px 5px 5px;
+}
+.im--4 {
+  border-radius: 5px 5px 5px 30px;
+}
+.im--6 {
+  border-radius: 5px 5px 30px 5px;
+}
+.funfacts {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  background-color: black;
+  block-size: 100%;
+  letter-spacing: 2px;
+  font-size: 22px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  font-weight: bolder;
+  border-top: 5px solid white;
+  border-bottom: 5px solid white;
+}
+.fun {
+  width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+}
+.pizza {
+  padding-top: 0;
+  width: 250px;
+}
+.ghosts {
+  padding-top: 17px;
+  width: 300px;
+}
+.informations {
+  letter-spacing: normal;
+  font-weight: 300;
+  font-family: cursive;
+}
+.followus {
+  background-color: rgb(62, 226, 255);
+  padding-bottom: 30px;
+}
+.i--1 {
+  margin-left: 32px;
+}
+.i--2,
+.i--3 {
+  margin-left: 10px;
+}
+.final {
+  display: flex;
+}
+.footer-top {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  justify-items: center;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+.honor {
+  text-align: center;
+  font-size: 20px;
+  padding-top: 30px;
+  font-family: fantasy;
+}
+.gift {
+  padding-top: 20px;
+  margin-left: 90px;
+}
+.i--1:hover,
+.i--2:hover,
+.i--3:hover {
+  background-color: rgb(250, 255, 105);
+  padding: 4px;
+  border-radius: 3px;
+}
+.sentence {
+  background-color: white;
+  font-style: italic;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+  padding: 10px;
+}
+.button {
+  position: unset;
+  background-color: rgb(62, 226, 255);
+  color: white;
+  font-size: 16px;
+  padding: 5px;
+  letter-spacing: normal;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 300;
+  border: 4px solid white;
+  cursor: pointer;
+  border-radius: 8px;
+  text-shadow: none;
+}
+footer {
+  margin: 20px;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
